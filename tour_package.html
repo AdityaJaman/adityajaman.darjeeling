@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Packages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .back-button {
+      padding: 10px 20px;
+      background-color: #e14516;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tour Packages</h1>
+  </header>
+      
+  <main>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+      </div>
+      <div class="form-group">
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date" required>
+      </div>
+      <div class="form-group">
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date" name="end-date" required>
+      </div>
+      <button type="submit">Search Packages</button>
+      <button type="submit">
+        <a style="text-decoration: none; color: #ffffff;" href="tour.html">Back</a>
+      </button>
+    </form>
+  </main>
+  
+  <footer>
+    <p>Booking with Aditya</p>
+  </footer>
+</body>
+</html>

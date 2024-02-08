@@ -1,0 +1,88 @@
+.aditya {
+    border-radius: 50%;
+  }
+  body{
+    margin: 0;
+    padding:0;
+
+  }
+  .back{
+    background-color: #dee3e0;
+  }
+
+  .aditya {
+    border: 2px solid rgb(202, 199, 33);
+  }
+
+  .aditya:hover {
+    transform: scale(1);
+  } 
+
+  .container-main {
+    padding: 0 60px;
+  }
+
+  .heading {
+    color: rgb(15, 85, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+  }
+  .navbar{
+    overflow: hidden;
+    background-color: #00070b;
+    position: fixed;
+    margin-top:0;
+    width:100%;
+    height: 40px;
+  }
+  .navbar a{
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 20px 25px ;
+    color: rgb(255, 255, 255);
+  }
+  .active {
+    background-color: #2b3c36;
+  }
+  a:hover:not(.active) {
+    background-color: #0feaed;
+  }
+  a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  p{
+    font-size: 18px;
+    align-items: center;
+  }
+
+  
+  table{
+  border: 2px solid;
+  }
+
+  button {
+    width: 150px;
+    border: none;
+    font-size: 18px;
+    padding: 8px 2px;
+    border-radius: 18px;
+    background-color: #0b5db0;
+    color: aliceblue;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #109792;
+  }
+
+  td, th {
+  border: 1px solid rgb(120, 57, 57);
+  background-color: rgb(193, 237, 242) ;
+}
+.foot{
+  height: 80px;
+  color: black;
+  background-color: rgb(163, 160, 160);
+}
